@@ -11,8 +11,6 @@ export default defineConfig({
 		}),
 	],
 	esbuild: {
-		loader: {
-			'.js': 'jsx', // Указываем, что файлы .js должны быть обработаны как JSX
-		},
+		loader: 'jsx', // Указываем, что все файлы должны обрабатываться как JSX
 	},
 })
