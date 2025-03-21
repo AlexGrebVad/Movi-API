@@ -88,7 +88,7 @@
 			"react/destructuring-assignment": "off",
 			"react/no-unused-state": "off",
 			"class-methods-use-this": "off",
-			"devDependencies": false,
+			"devDependencies": "off",
 			"no-cond-assign": "warn",
 			"no-constant-condition": "warn",
 			"no-dupe-args": "warn",
