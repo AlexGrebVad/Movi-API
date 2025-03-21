@@ -1,0 +1,14 @@
+.img {
+	display: block;
+	width: 183px;
+}
+
+@media (max-width: 1245px) {
+	.img {
+		margin: 6px 13px 10px 10px;
+		width: 90px;
+		min-height: 91px;
+
+		max-height: 121px;
+	}
+}

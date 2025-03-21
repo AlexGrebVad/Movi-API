@@ -1,0 +1,31 @@
+.global-raiting-block {
+	margin: 12px 9px 12px auto;
+	box-sizing: border-box;
+	width: 30px;
+	height: 30px;
+	border: 2px solid;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 15px;
+}
+
+.zero-three-rait {
+	border-color: #e90000;
+}
+.three-five-rait {
+	border-color: #e97e00;
+}
+.five-seven-rait {
+	border-color: #e9d100;
+}
+.seven-plus-rait {
+	border-color: #66e900;
+}
+
+@media (max-width: 1245px) {
+	.global-raiting-block {
+		margin-left: auto;
+	}
+}

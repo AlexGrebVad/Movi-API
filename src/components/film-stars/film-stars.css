@@ -1,0 +1,21 @@
+.film-stars {
+	margin: 5px 0 5px 20px;
+}
+
+.ant-rate-star {
+	font-size: 13px;
+	outline: none;
+	border: none;
+	background-color: white;
+}
+
+.ant-rate-star:active {
+	font-size: 13px;
+}
+
+@media (max-width: 1245px) {
+	.film-stars {
+		margin-left: -15px;
+		margin-top: 25px;
+	}
+}

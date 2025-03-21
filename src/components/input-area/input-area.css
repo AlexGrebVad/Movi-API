@@ -1,0 +1,27 @@
+.input-field > input {
+	border: 1px solid rgb(217, 217, 217);
+	outline: 1px solid rgb(217, 217, 217);
+	border-radius: 4px;
+	margin: 20px 35px 0 35px;
+	width: 948px;
+	margin-top: 20px;
+	font-family: Inter;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 5px;
+}
+
+@media (max-width: 1245px) {
+	.input-field {
+		padding-top: 20px;
+		margin: 0 auto;
+		padding: 0 auto;
+	}
+	.input-field > input {
+		width: 318px;
+
+		margin: 0px auto 20px auto;
+		display: block;
+	}
+}
